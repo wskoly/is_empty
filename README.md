@@ -10,7 +10,7 @@
 
 ## Description
 - The package has two functions named `empty()` and `not_empty()` which can check if a variable is empty or not.
-- The following values evaluates to empty:
+- The following values evaluate to empty:
   - 0
   - 0.0
   - ""
@@ -32,7 +32,7 @@ Import the functions to your code.
 ```py
 from is_empty import empty, not_empty
 ```
-- Check weather a list is empty or not using empty().
+- Check whether a list is empty or not using empty().
 ```py
 #The function will return True in this case
 items = []
@@ -41,7 +41,7 @@ if empty(items):
 else:
   #Do something else
 ```
-- Check weather a tuple is not empty using not_empty.
+- Check whether a tuple is not empty using not_empty.
 ```py
 #The function will return True in this case
 items = (1,2,3)
